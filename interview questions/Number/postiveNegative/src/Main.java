@@ -1,10 +1,10 @@
 import java.util.*;
 class First{
     void posNeg(int n){
-        if(n%2==0)
-            System.out.println("Even");
+        if(n>=0)
+            System.out.println("Positive");
         else
-            System.out.println("Odd");
+            System.out.println("Negative");
     }
 }
 public class Main {
